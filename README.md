@@ -1,4 +1,9 @@
-# DesiKart- Role-Based API Backend
+# DesiKart - Role-Based API Backend
+
+**Concise Description:**  
+DesiKart is the backend for an e-commerce platform, built with Node.js and Express. It features secure, role-based access for admins, vendors, and users, with modular API endpoints and JWT authentication.
+
+---
 
 This repository contains a Node.js backend built with Express, implementing a role-based API architecture for an application with **admin**, **vendor**, **user**, and **public** routes. It uses MongoDB for data storage, JWT authentication, and authorization middleware for secure access control.
 
@@ -34,13 +39,13 @@ This repository contains a Node.js backend built with Express, implementing a ro
 
 ## API Endpoints
 
-| Route Prefix      | Role Protected | Description         |
-|-------------------|---------------|---------------------|
-| `/api/public`     | No            | Public endpoints    |
-| `/api/auth`       | No            | Authentication APIs |
-| `/api/admin`      | Admin         | Admin functionalities|
+| Route Prefix      | Role Protected | Description           |
+|-------------------|---------------|-----------------------|
+| `/api/public`     | No            | Public endpoints      |
+| `/api/auth`       | No            | Authentication APIs   |
+| `/api/admin`      | Admin         | Admin functionalities |
 | `/api/vendor`     | Vendor        | Vendor functionalities|
-| `/api/user`       | User          | User functionalities|
+| `/api/user`       | User          | User functionalities  |
 
 ## Getting Started
 
@@ -95,6 +100,3 @@ Any undefined route returns:
 ```json
 { "msg": "No Routes Found!!!" }
 ```
-
-
-
